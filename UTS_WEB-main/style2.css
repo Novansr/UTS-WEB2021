@@ -1,0 +1,129 @@
+/*  import google fonts */
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap");
+*{
+  margin: 0;
+  padding: 0;
+  outline: none;
+  border: none;
+  text-decoration: none;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+body{
+  background: rgb(226, 226, 226);
+}
+
+header{
+    margin: 0 0 20px 0;
+    width: 100%;
+    height: 10vh;
+    background-color: rgb(129, 56, 56);
+    
+}
+
+nav{
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+nav ul{
+    display:flex;
+    padding: 30px;
+    gap: 40px;
+    list-style: none;
+}
+nav ul li a{
+    position: relative;
+    font-family:Bebas Neue;
+    font-size: 30px;
+    color: white;
+    text-decoration: none;
+    bottom: 10px;
+}
+nav ul li a:hover{
+    font-size: 40px;
+    color: rgb(255, 239, 232);
+}
+
+
+.tb{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    
+}
+.td{
+    border: solid black 2px;
+    border-radius: 5px;
+    text-align: center;
+}
+.penjualan{
+  margin-top: 20px;
+  text-transform: capitalize;
+}
+.penjualan-list{
+  width: 100%;
+  padding: 10px;
+  margin-top: 10px;
+  background: #fff;
+  border-radius: 10px;
+  box-shadow: 0 20px 35px rgba(0, 0, 0, 0.1);
+}
+.table{
+  border-collapse: collapse;
+  margin: 25px 0;
+  font-size: 15px;
+  min-width: 100%;
+  overflow: hidden;
+  border-radius: 5px 5px 0 0;
+}
+table thead tr{
+  color: #fff;
+  background: #3465af;
+  text-align: left;
+  font-weight: bold;
+}
+.table th,
+.table td{
+  padding: 12px 15px;
+}
+.table tbody tr{
+  border-bottom: 1px solid #ddd;
+}
+.table tbody tr:nth-of-type(odd){
+  background: #f3f3f3;
+}
+
+.table tbody tr:last-of-type{
+  border-bottom: 2px solid #4a5cd4;
+}
+.table button{
+  padding: 6px 20px;
+  border-radius: 10px;
+  cursor: pointer;
+  background: transparent;
+  border: 1px solid #4a6cd4;
+}
+.table button:hover{
+  background: #4a76d4;
+  color: #fff;
+  transition: 0.5rem;
+}
+.sub{
+    position: absolute;
+    border: solid rgb(224, 103, 81) ;
+    background-color: rgb(236, 105, 82);
+    cursor: pointer;
+    justify-content: left;
+    left: 73%;
+    bottom: 79%;
+    padding: 10px;
+    border-radius: 10px;
+}
+.sub:hover{
+    border: solid rgb(191, 82, 62) ;
+    background-color: rgb(210, 85, 63);
+}
